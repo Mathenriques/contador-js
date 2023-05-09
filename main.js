@@ -23,7 +23,7 @@ btnP2.addEventListener("click", () => {
   p2Score.innerText = p2;
 
   if (p2Score.innerText == victoryPoint.value) {
-    endGame(btnP1, btnP2, p2Score, p1Score);
+    endGame(btnP2, btnP1, p2Score, p1Score);
   }
 })
 
